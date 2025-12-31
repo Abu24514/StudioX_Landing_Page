@@ -5,6 +5,8 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>StudioX.</title>
+  <!-- remix-icon -->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.8.0/fonts/remixicon.css" rel="stylesheet" />
   <!-- Css -->
   <link rel="stylesheet" href="style.css" />
 </head>
@@ -39,6 +41,22 @@
     <div id="main">
       <!----------------Hero ---------------->
       <section id="hero-section" class="center-all">
+
+        <!-- add assets svg  -->
+        <svg id="overlaysvg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" width="1928"
+          height="2074" viewBox="0 0 100 100" fill="none">
+          <!-- Classic down arrow with rounded edges -->
+          <path d="M50 10 L50 60 M50 60 L25 35 M50 60 L75 35" stroke="url(#arrowGradient)" stroke-width="13"
+            stroke-linecap="round" stroke-linejoin="round" fill="none" />
+
+          <defs>
+            <linearGradient id="arrowGradient" x1="70" y1="10" x2="70" y2="70" gradientUnits="userSpaceOnUse">
+              <stop offset="15%" stop-color="#f2f3f5" />
+              <stop offset="60%" stop-color="#81bae7" />
+
+            </linearGradient>
+          </defs>
+        </svg>
         <!-- content-title -->
         <div class="content-title ">
           <!-- sub-title -->
@@ -255,50 +273,129 @@
         <!-- branding -->
       </section>
       <!---------------- /Brand ---------------->
-       <!-- Our-Client-review -->
-        <section id= "client-review" class="center-all mt">
-               <p class="sub-title">
-              <span>client-review </span>
-            </p>
-          <div class="review-grid mt swiper-wrapper">
-            <!-- 1 -->
-              <div class="review-card">
-               <div class="man_Info">
-                <div class="image-con">
-                  <img src="https://images.unsplash.com/flagged/photo-1595514191830-3e96a518989b?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fG1hbnxlbnwwfHwwfHx8MA%3D%3D" alt="man">
-                </div>
-                 <p class="name">Alex</p>
+      <!-- Our-Client-review -->
+      <section id="client-review" class="center-all mt">
+        <p class="sub-title">
+          <span>client-review </span>
+        </p>
+        <div class="review-grid mt swiper-wrapper">
+          <!-- 1 -->
+          <div class="review-card">
+            <div class="man_Info">
+              <div class="image-con">
+                <img
+                  src="https://images.unsplash.com/flagged/photo-1595514191830-3e96a518989b?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fG1hbnxlbnwwfHwwfHx8MA%3D%3D"
+                  alt="man">
               </div>
-              <p class="say">" Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum quae velit ut magnam deserunt voluptatibus."</p>
-              <h3 class="rate">⭐⭐⭐⭐⭐</h3>
-              </div>
-              <!-- 2 -->
-               <div class="review-card">
-               <div class="man_Info">
-                <div class="image-con">
-                  <img src="https://images.unsplash.com/photo-1566753323558-f4e0952af115?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDJ8fG1hbnxlbnwwfHwwfHx8MA%3D%3D" alt="man">
-                </div>
-                 <p class="name">Rio</p>
-              </div>
-              <p class="say">" Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum quae velit ut magnam deserunt voluptatibus."</p>
-              <h3 class="rate">⭐⭐⭐⭐⭐</h3>
-              </div>
-              <!-- 3 -->
-               <div class="review-card">
-               <div class="man_Info">
-                <div class="image-con">
-                  <img src="https://images.unsplash.com/photo-1531891437562-4301cf35b7e4?q=80&w=764&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="man">
-                </div>
-                 <p class="name">Sam</p>
-              </div>
-              <p class="say">" Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum quae velit ut magnam deserunt voluptatibus."</p>
-              <h3 class="rate">⭐⭐⭐⭐⭐</h3>
-              </div>
-              
+              <p class="name">Michael Chen</p>
+            </div>
+            <p class="say">" The team's professionalism and creativity are unmatched. They brought our story to life in
+              ways we never imagined possible."</p>
+            <h3 class="rate">⭐⭐⭐⭐⭐</h3>
           </div>
-        </section>
-       <!-- /Our-Client-review -->
-      
+          <!-- 2 -->
+          <div class="review-card">
+            <div class="man_Info">
+              <div class="image-con">
+                <img
+                  src="https://images.unsplash.com/photo-1571234018566-1d3cc5d2991a?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  alt="woman">
+              </div>
+              <p class="name">Sarah Mitchell</p>
+            </div>
+            <p class="say">" Working with StudiosX was an absolute pleasure. They delivered exceptional video content
+              that perfectly captured our brand's essence."</p>
+            <h3 class="rate">⭐⭐⭐⭐⭐</h3>
+          </div>
+          <!-- 3 -->
+          <div class="review-card">
+            <div class="man_Info">
+              <div class="image-con">
+                <img
+                  src="https://images.unsplash.com/photo-1531891437562-4301cf35b7e4?q=80&w=764&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  alt="man">
+              </div>
+              <p class="name">David Thompson</p>
+            </div>
+            <p class="say">" Simply amazing! The production quality and storytelling capabilities of StudiosX set them
+              apart from everyone else in the industry."</p>
+            <h3 class="rate">⭐⭐⭐⭐⭐</h3>
+          </div>
+
+        </div>
+        <button class="primary-btn">
+          <a href="#">See All</a>
+        </button>
+      </section>
+      <!-- /Our-Client-review -->
+      <!----------------Footer ---------------->
+      <footer id="footer">
+        <div class="footer-content center-all">
+          <!-- content-title -->
+          <div class="content-title text-container">
+            <!-- text-container -->
+            <h1 class="primary-title secondary-title animate">
+              <span>We blend artistry and </span>
+            </h1>
+            <h1 class="primary-title secondary-title animate">
+              <span> technology to craft premium </span>
+            </h1>
+            <h1 class="primary-title secondary-title animate">
+              <span>cinematic experiences that </span>
+            </h1>
+            <h1 class="primary-title secondary-title animate">
+              <span> elevate brands and </span>
+            </h1>
+            <h1 class="primary-title secondary-title animate">
+              <span> inspire audiences.</span>
+            </h1>
+          </div>
+          <!-- arrow-btn -->
+          <button class="arrow-btn">
+            <a href="#">
+              <img class="ar" src="/assets/articles/right-arrow-alt-svgrepo-com (1).svg" alt="arrow" />
+            </a>
+          </button>
+          <div class="line-s"></div>
+        </div>
+
+        <!-- inline-padding -->
+        <div class="padding-ft mt">
+          <div class="line-h"></div>
+          <div class="foot">
+            <div class="info">
+              <!-- 01 -->
+              <div class="space">
+                <p class="gray-color">- FRI / 9 AM to 5 PM</p>
+                <h1>READY TO CULTIVATE YOUR NEXT</h1>
+                <h1>BIG IDEA? <span style="color: white">DROP US A LINE.</span></h1>
+              </div>
+              <div class="line-m"></div>
+              <!-- 02 -->
+              <div class="space">
+                <div class="wrap-s">
+                  <div class="group">
+                    <p class="gray-color">-3:14 (GMT+5.5)</p>
+                    <h1>StudiosX</h1>
+                  </div>
+                  <div class="social">
+                    <i class="ri-instagram-line  gray-color"></i>
+                    <i class="ri-facebook-line gray-color"></i>
+                    <i class="ri-github-fill"></i>
+                    <i class="ri-dribbble-line"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="line-ms"></div>
+            <div class="right gray-color">
+              <p>&copy; 2025 StudiosX House</p>
+              <p>Hazratganj - Lucknow , India </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!----------------Footer ---------------->
     </div>
     <!-- ======/main======= -->
   </div>
